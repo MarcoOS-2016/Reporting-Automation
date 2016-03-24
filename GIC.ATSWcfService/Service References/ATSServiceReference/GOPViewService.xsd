@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.dell.com/AvailableToSell/Services/GOP" elementFormDefault="qualified" targetNamespace="http://schemas.dell.com/AvailableToSell/Services/GOP" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://atsservice.dell.com/Dell.AvailableToSell.ServiceHost/GOPViewService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.GOP" />
+  <xs:element name="FetchGOPOnHandInTransit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.GOP" minOccurs="0" name="request" nillable="true" type="q1:SerachGOPRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FetchGOPOnHandInTransitResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.GOP" minOccurs="0" name="FetchGOPOnHandInTransitResult" nillable="true" type="q2:FetchGOPOnHandInTransitResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FetchOnHand">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.GOP" minOccurs="0" name="request" nillable="true" type="q3:OnHandRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FetchOnHandResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.GOP" minOccurs="0" name="FetchOnHandResult" nillable="true" type="q4:FetchOnHandResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FetchInTransit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.GOP" minOccurs="0" name="request" nillable="true" type="q5:InTransitRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FetchInTransitResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.GOP" minOccurs="0" name="FetchInTransitResult" nillable="true" type="q6:FetchInTransitResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFullFillmentLocations">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFullFillmentLocationsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.GOP" minOccurs="0" name="GetFullFillmentLocationsResult" nillable="true" type="q7:FullfillmentfacilityResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

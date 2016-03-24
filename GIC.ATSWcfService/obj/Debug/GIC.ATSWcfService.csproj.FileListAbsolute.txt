@@ -1,0 +1,15 @@
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.ATSWcfService\bin\Web.config
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.ATSWcfService\bin\Web.Debug.config
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.ATSWcfService\bin\Web.Release.config
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.ATSWcfService\bin\GIC.ATSWcfService.dll
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.ATSWcfService\bin\GIC.ATSWcfService.pdb
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.ATSWcfService\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.ATSWcfService\obj\Debug\GIC.ATSWcfService.dll
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.ATSWcfService\obj\Debug\GIC.ATSWcfService.pdb
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.ATSWcfService\bin\Web.config
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.ATSWcfService\bin\Web.Debug.config
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.ATSWcfService\bin\Web.Release.config
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.ATSWcfService\bin\GIC.ATSWcfService.dll
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.ATSWcfService\bin\GIC.ATSWcfService.pdb
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.ATSWcfService\obj\Debug\GIC.ATSWcfService.dll
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.ATSWcfService\obj\Debug\GIC.ATSWcfService.pdb

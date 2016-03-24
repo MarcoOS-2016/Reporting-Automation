@@ -1,0 +1,97 @@
+Source:Microsoft Access Database Engine, StackTrack:   at GIC.Business.ReportingHandlerBase.ReadAXReport(String filename) in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Business\ReportingHandlerBase.cs:line 147
+   at GIC.Business.ScheduledReportingHandler.UploadAXReport() in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Business\ScheduledReportingHandler.cs:line 69
+   at GIC.Business.ScheduledReportingHandler.Process() in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Business\ScheduledReportingHandler.cs:line 36
+   at GIC.Reporting.ReportingConfigForm.button1_Click(Object sender, EventArgs e) in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\ReportingConfigForm.cs:line 305
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at GIC.Reporting.Program.Main(String[] args) in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\Program.cs:line 22, Error:External table is not in the expected format.
+Source:GIC.Business, StackTrack:   at GIC.Business.ReportingHandlerBase.FetchGloviaData() in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Business\ReportingHandlerBase.cs:line 54
+   at GIC.Business.ScheduledReportingHandler.UploadGloviaReport() in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Business\ScheduledReportingHandler.cs:line 105
+   at GIC.Business.ScheduledReportingHandler.Process() in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Business\ScheduledReportingHandler.cs:line 37
+   at GIC.Reporting.ReportingConfigForm.button1_Click(Object sender, EventArgs e) in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\ReportingConfigForm.cs:line 305
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at GIC.Reporting.Program.Main(String[] args) in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\Program.cs:line 22, Error:'Initial Catalog' is an invalid connection string attribute
+Source:GIC.Business, StackTrack:   at GIC.Business.ScheduledReportingHandler.ExportDragonReport() in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Business\ScheduledReportingHandler.cs:line 50
+   at GIC.Business.ScheduledReportingHandler.Process() in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Business\ScheduledReportingHandler.cs:line 37
+   at GIC.Reporting.ReportingConfigForm.button1_Click(Object sender, EventArgs e) in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\ReportingConfigForm.cs:line 305
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at GIC.Reporting.Program.Main(String[] args) in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\Program.cs:line 22, Error:Object reference not set to an instance of an object.
+Source:GIC.Business, StackTrack:   at GIC.Business.ScheduledReportingHandler.ExportDragonReport() in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Business\ScheduledReportingHandler.cs:line 50
+   at GIC.Business.ScheduledReportingHandler.Process() in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Business\ScheduledReportingHandler.cs:line 37
+   at GIC.Reporting.ReportingConfigForm.button1_Click(Object sender, EventArgs e) in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\ReportingConfigForm.cs:line 305
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at GIC.Reporting.Program.Main(String[] args) in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\Program.cs:line 22, Error:Object reference not set to an instance of an object.
+Source:GIC.Business, StackTrack:   at GIC.Business.ScheduledReportingHandler.ExportDragonReport() in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Business\ScheduledReportingHandler.cs:line 51
+   at GIC.Business.ScheduledReportingHandler.Process() in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Business\ScheduledReportingHandler.cs:line 37
+   at GIC.Reporting.ReportingConfigForm.button1_Click(Object sender, EventArgs e) in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\ReportingConfigForm.cs:line 305
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at GIC.Reporting.Program.Main(String[] args) in D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\Program.cs:line 22, Error:Object reference not set to an instance of an object.

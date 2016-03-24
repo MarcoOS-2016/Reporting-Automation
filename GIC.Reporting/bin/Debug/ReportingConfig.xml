@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ReportingConfig>
+  <ScheduledReports>
+    <ScheduledReport>
+      <ReportName>Stock_Status_With_Cost</ReportName>
+      <CCN>C10000</CCN>      
+      <DataBaseName>GLOVIA</DataBaseName>
+      <TableName>Stock_Status_Glovia</TableName>
+      <ImportDataBaseFlag>True</ImportDataBaseFlag>
+      <TableAccess>APPEND</TableAccess>
+      <SavedFolder>\\WN7-HGT6822\d$\Daily_Report\Glovia_Stock_Status</SavedFolder>
+      <ExportToFileFlag>False</ExportToFileFlag>
+      <DayOfWeek>1,2,3,4,5</DayOfWeek>
+      <StartTime>090000</StartTime>
+      <SQLScript>
+        SELECT
+        DISTINCT D.CCN,
+        D.MAS_LOC,
+        D.LOCATION,
+        D.BIN,
+        D.ITEM,
+        C.DESCRIPTION,
+        C.COMMODITY,
+        B.ISSUE_CODE,
+        B.BOX_CODE,
+        D.OH_QTY,
+        E.STD_COST,
+        (E.STD_COST * D.OH_QTY) EXTD_COST,
+        B.COA,
+        B.CONSIGNED,
+        B.BULK_EXPENSED,
+        B.RETURN_ON_ASN,
+        to_char(sysdate, 'mm/dd/yyyy') as Snapshot_Date
+        FROM glovia_prog40.C_ITEM      A,
+        glovia_prog40.C_ITMCCN    B,
+        glovia_prog40.ITEM        C,
+        glovia_prog40.ITEM_DET_12 D,
+        glovia_prog40.ITEM_CCN    E,
+        glovia_prog40.ITEM_ML     F,
+        glovia_prog40.COMMOD      G,
+        glovia_prog40.LOC         H
+        WHERE D.ITEM = C.ITEM
+        AND D.REVISION = C.REVISION
+        AND C.ITEM = A.ITEM
+        AND C.REVISION = A.REVISION
+        AND D.CCN = E.CCN
+        AND D.ITEM = E.ITEM
+        AND D.REVISION = E.REVISION
+        AND E.CCN = B.CCN
+        AND E.ITEM = B.ITEM
+        AND E.REVISION = B.REVISION
+        AND D.CCN = F.CCN
+        AND D.ITEM = F.ITEM
+        AND D.REVISION = F.REVISION
+        AND D.MAS_LOC = F.MAS_LOC
+        AND G.COMMODITY = C.COMMODITY
+        AND H.CCN = D.CCN
+        AND H.MAS_LOC = D.MAS_LOC
+        AND H.LOCATION = D.LOCATION
+        AND D.CCN IN ('C10000')
+        AND D.MAS_LOC IN ('CR2', 'CW2', 'CQ2')
+        AND TO_CHAR(D.UPDATE_DATE, 'yyyy/mm/dd') = to_char(sysdate, 'yyyy/mm/dd')
+      </SQLScript>
+    </ScheduledReport>
+    <ScheduledReport>
+      <ReportName>Part_Detail</ReportName>
+      <CCN>C10000</CCN>
+      <TableAccess>OVERWRITE</TableAccess>
+      <DataBaseName>GLOVIA</DataBaseName>
+      <TableName>Part_Detail</TableName>
+      <ImportDataBaseFlag>TRUE</ImportDataBaseFlag>
+      <SavedFolder>\\WN7-HGT6822\d$\Daily_Report\Glovia_Stock_Status</SavedFolder>
+      <ExportToFileFlag>False</ExportToFileFlag>
+      <DayOfWeek>1</DayOfWeek>
+      <StartTime>090000</StartTime>
+      <SQLScript>
+        SELECT DISTINCT D.CCN,
+        D.ITEM,
+        C.DESCRIPTION,
+        C.COMMODITY,
+        B.ISSUE_CODE,
+        B.BOX_CODE,
+        B.BULK_EXPENSED,
+        B.CONSIGNED,
+        B.COA,
+        B.RETURN_ON_ASN,
+        B.PAU
+        FROM GLOVIA_PROG40.C_ITEM A,
+        GLOVIA_PROG40.C_ITMCCN    B,
+        GLOVIA_PROG40.ITEM        C,
+        GLOVIA_PROG40.ITEM_DET    D,
+        GLOVIA_PROG40.COMMOD      E
+        WHERE D.ITEM = C.ITEM
+        AND C.ITEM = A.ITEM
+        AND A.ITEM = B.ITEM
+        AND B.ITEM = D.ITEM
+        AND B.CCN = D.CCN
+        AND D.REVISION = C.REVISION
+        AND C.REVISION = A.REVISION
+        AND A.REVISION = B.REVISION
+        AND B.REVISION = D.REVISION
+        AND C.COMMODITY = E.COMMODITY
+        AND D.CCN = 'C10000'
+      </SQLScript>
+    </ScheduledReport>
+    <ScheduledReport>
+      <ReportName>Inventory_Visibility</ReportName>
+      <CCN>C10000</CCN>
+      <TableAccess>OVERWRITE</TableAccess>
+      <DataBaseName>DRAGON</DataBaseName>
+      <TableName>Stock_Status</TableName>
+      <ImportDataBaseFlag>FALSE</ImportDataBaseFlag>
+      <SavedFolder>\\WN7-HGT6822\d$\Daily_Report\CCC_Dragon_Inventory_Visibility</SavedFolder>
+      <ExportToFileFlag>True</ExportToFileFlag>
+      <DayOfWeek>2</DayOfWeek>
+      <StartTime>090000</StartTime>
+      <SQLScript>
+        SELECT total.country_code,
+        total.lsp,
+        total.part_num,
+        total.mas_loc,
+        total.vendor_code,
+        total.buyer_code,
+        total.product_type,
+        NVL(SUM(total.total_onhand), 0) total_onhand,
+        NVL(SUM(total.vmi_defective), 0) vmi_defective,
+        NVL(SUM(total.dmi_defective), 0) dmi_defective,
+        NVL(SUM(total.dmi_goodpart), 0) dmi_goodpart,
+        NVL(SUM(total.vmi_goodpart), 0) vmi_goodpart,
+        NVL(SUM(total.vmi_rsv_qty), 0) vmi_rsv_qty,
+        NVL(SUM(total.dmi_rsv_qty), 0) dmi_rsv_qty,
+        NVL(SUM(total.vmi_allct_qty), 0) vmi_allct_qty,
+        NVL(SUM(total.dmi_allct_qty), 0) dmi_allct_qty,
+        NVL(SUM(total.new_backlog), 0) new_backlog,
+        NVL(SUM(total_end_on_hand), 0) total_end_on_hand
+        FROM (SELECT mas.country_code,
+        mas.lsp,
+        mp.buyer_code,
+        mp.product_type,
+        SUM.*
+        FROM (SELECT
+        NVL(ful.part_num, detail.part_num) part_num,
+        NVL(ful.mas_loc, detail.mas_loc) mas_loc,
+        NVL(ful.vendor_code, detail.vendor_code) vendor_code,
+        NVL(detail.total_onhand, 0) total_onhand,
+        NVL(detail.vmi_defective, 0) vmi_defective,
+        NVL(detail.dmi_defective, 0) dmi_defective,
+        NVL(detail.dmi_goodpart, 0) dmi_goodpart,
+        NVL(detail.vmi_goodpart, 0) vmi_goodpart,
+        NVL(detail.vmi_rsv_qty, 0) vmi_rsv_qty,
+        NVL(detail.dmi_rsv_qty, 0) dmi_rsv_qty,
+        NVL(detail.vmi_allct_qty, 0) vmi_allct_qty,
+        NVL(detail.dmi_allct_qty, 0) dmi_allct_qty,
+        NVL(ful.new_backlog, 0) new_backlog,
+        NVL(NVL(detail.total_onhand, 0) - NVL(ful.new_backlog, 0),
+        0) total_end_on_hand
+        FROM (
+        SELECT inv.part_num,
+        inv.mas_loc,
+        inv.vendor_code,
+        SUM(CASE
+        WHEN inv.bucket IN
+        (SELECT bucket
+        FROM drgn_owner.mst_bucket
+        WHERE asset_code = 'VMI'
+        AND bucket_type = 'GOOD') THEN
+        inv.qty
+        ELSE
+        0
+        END) AS vmi_goodpart,
+        SUM(CASE
+        WHEN inv.bucket IN
+        (SELECT bucket
+        FROM drgn_owner.mst_bucket
+        WHERE asset_code = 'VMI'
+        AND bucket_type = 'GOOD') THEN
+        inv.reserve_qty
+        ELSE
+        0
+        END) AS vmi_rsv_qty,
+        SUM(CASE
+        WHEN inv.bucket IN
+        (SELECT bucket
+        FROM drgn_owner.mst_bucket
+        WHERE asset_code = 'VMI'
+        AND bucket_type = 'GOOD') THEN
+        inv.allocated_qty
+        ELSE
+        0
+        END) AS vmi_allct_qty,
+        SUM(CASE
+        WHEN inv.bucket IN
+        (SELECT bucket
+        FROM drgn_owner.mst_bucket
+        WHERE asset_code = 'DMI'
+        AND bucket_type = 'GOOD') THEN
+        inv.qty
+        ELSE
+        0
+        END) AS dmi_goodpart,
+        SUM(CASE
+        WHEN inv.bucket IN
+        (SELECT bucket
+        FROM drgn_owner.mst_bucket
+        WHERE asset_code = 'DMI'
+        AND bucket_type = 'GOOD') THEN
+        inv.reserve_qty
+        ELSE
+        0
+        END) AS dmi_rsv_qty,
+        SUM(CASE
+        WHEN inv.bucket IN
+        (SELECT bucket
+        FROM drgn_owner.mst_bucket
+        WHERE asset_code = 'DMI'
+        AND bucket_type = 'GOOD') THEN
+        inv.allocated_qty
+        ELSE
+        0
+        END) AS dmi_allct_qty,
+        SUM(CASE
+        WHEN inv.bucket IN
+        (SELECT bucket
+        FROM drgn_owner.mst_bucket
+        WHERE bucket_type = 'GOOD') THEN
+        inv.qty
+        ELSE
+        0
+        END) AS total_onhand,
+        SUM(CASE
+        WHEN inv.bucket IN
+        (SELECT bucket
+        FROM drgn_owner.mst_bucket
+        WHERE asset_code = 'VMI'
+        AND bucket_type = 'DEFECTIVE') THEN
+        inv.qty
+        ELSE
+        0
+        END) AS vmi_defective,
+        SUM(CASE
+        WHEN inv.bucket IN
+        (SELECT bucket
+        FROM drgn_owner.mst_bucket
+        WHERE asset_code = 'DMI'
+        AND bucket_type = 'DEFECTIVE') THEN
+        inv.qty
+        ELSE
+        0
+        END) AS dmi_defective
+        FROM drgn_owner.inventory inv
+        WHERE (null IS NULL OR inv.mas_loc = null)
+        GROUP BY inv.part_num, inv.mas_loc, inv.vendor_code) detail
+        FULL OUTER JOIN((SELECT
+        ful.mas_loc,
+        ful.part_num,
+        ful.vendor_code,
+        NVL(SUM(ful.order_qty - ful.merge_qty - ful.merge_reuse_qty),
+        0) AS new_backlog
+        FROM drgn_owner.ord_fulfillment ful,
+        drgn_owner.ord_header      hd
+        WHERE ful.deviated_part_num IS NULL
+        AND ful.status IN ('NEW', 'PULL')
+        AND hd.status NOT IN ('FT', 'OFT')
+        AND UPPER(ful.vendor_code) != 'DELL'
+        AND (null IS NULL OR ful.mas_loc = null)
+        AND ful.buid = hd.buid
+        AND ful.order_num = hd.order_num
+        AND (hd.threepp_direct_ship_flag IS NULL OR
+        hd.threepp_direct_ship_flag NOT IN ('Y', 'C'))
+        GROUP BY ful.mas_loc, ful.part_num, ful.vendor_code)
+        UNION (SELECT
+        ful.mas_loc,
+        ful.deviated_part_num AS part_num,
+        ful.deviated_vendor_code AS vendor_code,
+        NVL(SUM(ful.order_qty - ful.merge_qty - ful.merge_reuse_qty),
+        0) AS new_backlog
+        FROM drgn_owner.ord_fulfillment ful,
+        drgn_owner.ord_header      hd
+        WHERE ful.deviated_part_num IS NOT NULL
+        AND ful.status IN ('NEW', 'PULL')
+        AND hd.status NOT IN ('FT', 'OFT')
+        AND UPPER(ful.vendor_code) != 'DELL'
+        AND (null IS NULL OR ful.mas_loc = null)
+        AND ful.buid = hd.buid
+        AND ful.order_num = hd.order_num
+        AND (hd.threepp_direct_ship_flag IS NULL OR hd.threepp_direct_ship_flag NOT IN ('Y', 'C'))
+        GROUP BY ful.mas_loc, ful.deviated_part_num, ful.deviated_vendor_code)) ful
+        ON ful.mas_loc = detail.mas_loc
+        AND ful.part_num = detail.part_num
+        AND ful.vendor_code = detail.vendor_code) SUM
+        INNER JOIN (SELECT DISTINCT mas_loc, country_code, lsp
+        FROM drgn_owner.mst_mas_loc
+        WHERE ('CN' IS NULL OR country_code = 'CN')) mas
+        ON SUM.mas_loc = mas.mas_loc
+        INNER JOIN (SELECT part_num, buyer_code, product_type
+        FROM drgn_owner.mst_part
+        GROUP BY part_num, buyer_code, product_type) mp
+        ON mp.part_num = SUM.part_num) total
+        GROUP BY total.country_code,
+        total.lsp,
+        total.part_num,
+        total.mas_loc,
+        total.vendor_code,
+        total.buyer_code,
+        total.product_type
+        ORDER BY total.country_code,
+        total.lsp,
+        total.part_num,
+        total.mas_loc,
+        total.vendor_code,
+        total.buyer_code,
+        total.product_type
+      </SQLScript>
+    </ScheduledReport>
+  </ScheduledReports>
+  <AXReportConfigs>
+    <AXReportConfig>
+      <ReportName>Stock_Status_With_Cost</ReportName>
+      <CCN>C10000</CCN>
+      <SourceFolder>\\XMNPWMESAIF202\StockStatusWithCosts_Report</SourceFolder>
+      <TargetFolder>\\WN7-HGT6822\d$\Daily_Report\AX_Stock_Status\C10000</TargetFolder>
+      <ArchiveFolder>\\WN7-HGT6822\d$\Daily_Report\AX_Stock_Status\C10000\Archive</ArchiveFolder>      
+      <TableName>Stock_Status_AX</TableName>
+      <DayOfWeek>1,2,3,4,5</DayOfWeek>
+      <StartTime>090000</StartTime>
+    </AXReportConfig>
+  </AXReportConfigs>
+</ReportingConfig>

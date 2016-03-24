@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.GOP" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.GOP" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="SerachGOPRequest">
+    <xs:sequence>
+      <xs:element name="ASNID" nillable="true" type="xs:string" />
+      <xs:element name="Catalog" nillable="true" type="xs:string" />
+      <xs:element name="Country" nillable="true" type="xs:string" />
+      <xs:element name="EstimatedArrival" nillable="true" type="xs:dateTime" />
+      <xs:element name="PartNo" nillable="true" type="xs:string" />
+      <xs:element name="SKUNo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SerachGOPRequest" nillable="true" type="tns:SerachGOPRequest" />
+  <xs:complexType name="FetchGOPOnHandInTransitResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="OnHandInTransit" nillable="true" type="tns:ArrayOfOnHandInTransit" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FetchGOPOnHandInTransitResponse" nillable="true" type="tns:FetchGOPOnHandInTransitResponse" />
+  <xs:complexType name="ArrayOfOnHandInTransit">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OnHandInTransit" nillable="true" type="tns:OnHandInTransit" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOnHandInTransit" nillable="true" type="tns:ArrayOfOnHandInTransit" />
+  <xs:complexType name="OnHandInTransit">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ASNID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BrandName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CatalogID" type="xs:int" />
+      <xs:element minOccurs="0" name="Catalogs" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CountryID" type="xs:int" />
+      <xs:element minOccurs="0" name="Identifier" type="xs:int" />
+      <xs:element minOccurs="0" name="InTransitQty" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OnHandDetails" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OnHandQty" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PartNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+      <xs:element minOccurs="0" name="SKUNo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OnHandInTransit" nillable="true" type="tns:OnHandInTransit" />
+  <xs:complexType name="OnHandRequest">
+    <xs:sequence>
+      <xs:element name="Identifier" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OnHandRequest" nillable="true" type="tns:OnHandRequest" />
+  <xs:complexType name="FetchOnHandResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="OnHandLocationQty" nillable="true" type="tns:ArrayOfOnHandLocationQty" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FetchOnHandResponse" nillable="true" type="tns:FetchOnHandResponse" />
+  <xs:complexType name="ArrayOfOnHandLocationQty">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OnHandLocationQty" nillable="true" type="tns:OnHandLocationQty" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOnHandLocationQty" nillable="true" type="tns:ArrayOfOnHandLocationQty" />
+  <xs:complexType name="OnHandLocationQty">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="LocationCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LocationName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OnHandQty" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OnHandLocationQty" nillable="true" type="tns:OnHandLocationQty" />
+  <xs:complexType name="InTransitRequest">
+    <xs:sequence>
+      <xs:element name="ProductID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="InTransitRequest" nillable="true" type="tns:InTransitRequest" />
+  <xs:complexType name="FetchInTransitResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="InTransitQty" nillable="true" type="tns:ArrayOfInTransitQty" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FetchInTransitResponse" nillable="true" type="tns:FetchInTransitResponse" />
+  <xs:complexType name="ArrayOfInTransitQty">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="InTransitQty" nillable="true" type="tns:InTransitQty" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfInTransitQty" nillable="true" type="tns:ArrayOfInTransitQty" />
+  <xs:complexType name="InTransitQty">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ASNID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CatalogID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CountryID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EstimatedArrival" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InventryOwner" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MergeCentreName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PartNO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Qty" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SKU" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShipFromFacility" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransportMode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="InTransitQty" nillable="true" type="tns:InTransitQty" />
+  <xs:complexType name="FullfillmentfacilityResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Fullfillmentfacility" nillable="true" type="tns:ArrayOfFullfillmentfacility" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FullfillmentfacilityResponse" nillable="true" type="tns:FullfillmentfacilityResponse" />
+  <xs:complexType name="ArrayOfFullfillmentfacility">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Fullfillmentfacility" nillable="true" type="tns:Fullfillmentfacility" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFullfillmentfacility" nillable="true" type="tns:ArrayOfFullfillmentfacility" />
+  <xs:complexType name="Fullfillmentfacility">
+    <xs:sequence>
+      <xs:element name="facilitycode" nillable="true" type="xs:string" />
+      <xs:element name="locationid" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Fullfillmentfacility" nillable="true" type="tns:Fullfillmentfacility" />
+</xs:schema>

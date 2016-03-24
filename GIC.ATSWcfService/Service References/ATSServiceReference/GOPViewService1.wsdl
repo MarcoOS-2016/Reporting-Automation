@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://schemas.dell.com/AvailableToSell/Services/GOP" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://schemas.dell.com/AvailableToSell/Services/GOP" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://schemas.dell.com/AvailableToSell/Services/GOP/Imports">
+      <xsd:import schemaLocation="http://atsservice.dell.com/Dell.AvailableToSell.ServiceHost/GOPViewService.svc?xsd=xsd0" namespace="http://schemas.dell.com/AvailableToSell/Services/GOP" />
+      <xsd:import schemaLocation="http://atsservice.dell.com/Dell.AvailableToSell.ServiceHost/GOPViewService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.FaultContract" />
+      <xsd:import schemaLocation="http://atsservice.dell.com/Dell.AvailableToSell.ServiceHost/GOPViewService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://atsservice.dell.com/Dell.AvailableToSell.ServiceHost/GOPViewService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.GOP" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="GOPService_FetchGOPOnHandInTransit_InputMessage">
+    <wsdl:part name="parameters" element="tns:FetchGOPOnHandInTransit" />
+  </wsdl:message>
+  <wsdl:message name="GOPService_FetchGOPOnHandInTransit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FetchGOPOnHandInTransitResponse" />
+  </wsdl:message>
+  <wsdl:message name="GOPService_FetchGOPOnHandInTransit_ATSFaultDataContractFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.FaultContract" name="detail" element="q1:ATSFaultDataContract" />
+  </wsdl:message>
+  <wsdl:message name="GOPService_FetchOnHand_InputMessage">
+    <wsdl:part name="parameters" element="tns:FetchOnHand" />
+  </wsdl:message>
+  <wsdl:message name="GOPService_FetchOnHand_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FetchOnHandResponse" />
+  </wsdl:message>
+  <wsdl:message name="GOPService_FetchOnHand_ATSFaultDataContractFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.FaultContract" name="detail" element="q2:ATSFaultDataContract" />
+  </wsdl:message>
+  <wsdl:message name="GOPService_FetchInTransit_InputMessage">
+    <wsdl:part name="parameters" element="tns:FetchInTransit" />
+  </wsdl:message>
+  <wsdl:message name="GOPService_FetchInTransit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FetchInTransitResponse" />
+  </wsdl:message>
+  <wsdl:message name="GOPService_FetchInTransit_ATSFaultDataContractFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.FaultContract" name="detail" element="q3:ATSFaultDataContract" />
+  </wsdl:message>
+  <wsdl:message name="GOPService_GetFullFillmentLocations_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFullFillmentLocations" />
+  </wsdl:message>
+  <wsdl:message name="GOPService_GetFullFillmentLocations_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFullFillmentLocationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GOPService_GetFullFillmentLocations_ATSFaultDataContractFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/Dell.AvailableToSell.Services.FaultContract" name="detail" element="q4:ATSFaultDataContract" />
+  </wsdl:message>
+  <wsdl:portType name="GOPService">
+    <wsdl:operation name="FetchGOPOnHandInTransit">
+      <wsdl:input wsaw:Action="http://schemas.dell.com/AvailableToSell/Services/GOP/GOPService/FetchGOPOnHandInTransit" message="tns:GOPService_FetchGOPOnHandInTransit_InputMessage" />
+      <wsdl:output wsaw:Action="http://schemas.dell.com/AvailableToSell/Services/GOP/GOPService/FetchGOPOnHandInTransitResponse" message="tns:GOPService_FetchGOPOnHandInTransit_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://schemas.dell.com/AvailableToSell/Services/GOP/GOPService/FetchGOPOnHandInTransitATSFaultDataContractFault" name="ATSFaultDataContractFault" message="tns:GOPService_FetchGOPOnHandInTransit_ATSFaultDataContractFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FetchOnHand">
+      <wsdl:input wsaw:Action="http://schemas.dell.com/AvailableToSell/Services/GOP/GOPService/FetchOnHand" message="tns:GOPService_FetchOnHand_InputMessage" />
+      <wsdl:output wsaw:Action="http://schemas.dell.com/AvailableToSell/Services/GOP/GOPService/FetchOnHandResponse" message="tns:GOPService_FetchOnHand_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://schemas.dell.com/AvailableToSell/Services/GOP/GOPService/FetchOnHandATSFaultDataContractFault" name="ATSFaultDataContractFault" message="tns:GOPService_FetchOnHand_ATSFaultDataContractFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FetchInTransit">
+      <wsdl:input wsaw:Action="http://schemas.dell.com/AvailableToSell/Services/GOP/GOPService/FetchInTransit" message="tns:GOPService_FetchInTransit_InputMessage" />
+      <wsdl:output wsaw:Action="http://schemas.dell.com/AvailableToSell/Services/GOP/GOPService/FetchInTransitResponse" message="tns:GOPService_FetchInTransit_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://schemas.dell.com/AvailableToSell/Services/GOP/GOPService/FetchInTransitATSFaultDataContractFault" name="ATSFaultDataContractFault" message="tns:GOPService_FetchInTransit_ATSFaultDataContractFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFullFillmentLocations">
+      <wsdl:input wsaw:Action="http://schemas.dell.com/AvailableToSell/Services/GOP/GOPService/GetFullFillmentLocations" message="tns:GOPService_GetFullFillmentLocations_InputMessage" />
+      <wsdl:output wsaw:Action="http://schemas.dell.com/AvailableToSell/Services/GOP/GOPService/GetFullFillmentLocationsResponse" message="tns:GOPService_GetFullFillmentLocations_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://schemas.dell.com/AvailableToSell/Services/GOP/GOPService/GetFullFillmentLocationsATSFaultDataContractFault" name="ATSFaultDataContractFault" message="tns:GOPService_GetFullFillmentLocations_ATSFaultDataContractFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

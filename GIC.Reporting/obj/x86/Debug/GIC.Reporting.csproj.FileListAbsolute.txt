@@ -1,0 +1,103 @@
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.ChangePasswordForm.resources
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.ReportingConfigForm.resources
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Reporting.exe.config
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.ChangePasswordForm.resources
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.ReportingConfigForm.resources
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Reporting.exe
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Reporting.pdb
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Business.dll
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Common.dll
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.DataAccess.dll
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\log4net.dll
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\Oracle.DataAccess.dll
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Business.pdb
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Common.pdb
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.DataAccess.pdb
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.exe
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.pdb
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Reporting.exe.config
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.exe
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.pdb
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Reporting.exe
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Reporting.pdb
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Business.dll
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Common.dll
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.DataAccess.dll
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\log4net.dll
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\Oracle.DataAccess.dll
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Business.pdb
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Common.pdb
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.DataAccess.pdb
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.ChangePasswordForm.resources
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.Properties.Resources.resources
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.ReportingConfigForm.resources
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GenerateResource.read.1.tlog
+K:\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Reporting.exe.config
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.exe
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.pdb
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Reporting.exe
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Reporting.pdb
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Business.dll
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Common.dll
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.DataAccess.dll
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\log4net.dll
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Business.pdb
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Common.pdb
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.DataAccess.pdb
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.ChangePasswordForm.resources
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.Properties.Resources.resources
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.ReportingConfigForm.resources
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.csproj.ResolveComReference.cache
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Reporting.exe.config
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.csproj.ResolveComReference.cache
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.exe
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.pdb
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Reporting.exe
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Reporting.pdb
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Business.dll
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Common.dll
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.DataAccess.dll
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\bin\Debug\log4net.dll
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Business.pdb
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Common.pdb
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.DataAccess.pdb
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.ChangePasswordForm.resources
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.Properties.Resources.resources
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.ReportingConfigForm.resources
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\bin\Debug\App.config
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.ATSWcfService.dll
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.ATSWcfService.pdb
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Reporting.exe.config
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.csproj.ResolveComReference.cache
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.exe
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.pdb
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.ChangePasswordForm.resources
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.Properties.Resources.resources
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.ReportingConfigForm.resources
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\bin\Debug\App.config
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Reporting.exe
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Reporting.pdb
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Business.dll
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Common.dll
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.DataAccess.dll
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\bin\Debug\log4net.dll
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Business.pdb
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.Common.pdb
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\bin\Debug\GIC.DataAccess.pdb
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\bin\Debug\ReportingConfig.xml
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.csprojResolveAssemblyReference.cache
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Reporting\obj\x86\Debug\GIC.Reporting.csproj.GenerateResource.Cache

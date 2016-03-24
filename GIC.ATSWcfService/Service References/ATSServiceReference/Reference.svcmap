@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c4fbca86-d2da-4730-a951-7151bf1ec65d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://atsservice.dell.com/Dell.AvailableToSell.ServiceHost/GOPViewService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GOPViewService.xsd" MetadataType="Schema" ID="e4e79896-0340-42a4-87ae-efe34818a0e1" SourceId="1" SourceUrl="http://atsservice.dell.com/Dell.AvailableToSell.ServiceHost/GOPViewService.svc?xsd=xsd0" />
+    <MetadataFile FileName="GOPViewService1.xsd" MetadataType="Schema" ID="6ad13978-15ef-4f30-a62f-f93b4da52d92" SourceId="1" SourceUrl="http://atsservice.dell.com/Dell.AvailableToSell.ServiceHost/GOPViewService.svc?xsd=xsd1" />
+    <MetadataFile FileName="GOPViewService.wsdl" MetadataType="Wsdl" ID="25ffb70c-06c8-4775-812f-c33ce9335198" SourceId="1" SourceUrl="http://atsservice.dell.com/Dell.AvailableToSell.ServiceHost/GOPViewService.svc?wsdl" />
+    <MetadataFile FileName="GOPViewService2.xsd" MetadataType="Schema" ID="99257d73-8a44-4cf2-aa2e-115e4765f450" SourceId="1" SourceUrl="http://atsservice.dell.com/Dell.AvailableToSell.ServiceHost/GOPViewService.svc?xsd=xsd3" />
+    <MetadataFile FileName="GOPViewService1.wsdl" MetadataType="Wsdl" ID="7a3aeeb9-5c38-48f6-9b04-565fdc71449d" SourceId="1" SourceUrl="http://atsservice.dell.com/Dell.AvailableToSell.ServiceHost/GOPViewService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="GOPViewService.disco" MetadataType="Disco" ID="da922c2c-0bf9-48e3-94f7-37740e4d342e" SourceId="1" SourceUrl="http://atsservice.dell.com/Dell.AvailableToSell.ServiceHost/GOPViewService.svc?disco" />
+    <MetadataFile FileName="GOPViewService3.xsd" MetadataType="Schema" ID="fd741e0c-84c9-4438-bf64-53d7bbdece46" SourceId="1" SourceUrl="http://atsservice.dell.com/Dell.AvailableToSell.ServiceHost/GOPViewService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

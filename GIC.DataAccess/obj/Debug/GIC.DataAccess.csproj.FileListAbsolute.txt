@@ -1,0 +1,42 @@
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.DataAccess.dll
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.DataAccess.pdb
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.Common.dll
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.Common.pdb
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.DataAccess\obj\Debug\GIC.DataAccess.dll
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.DataAccess\obj\Debug\GIC.DataAccess.pdb
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.DataAccess.dll
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.DataAccess.pdb
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.Common.dll
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.Common.pdb
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.DataAccess\obj\Debug\GIC.DataAccess.dll
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.DataAccess\obj\Debug\GIC.DataAccess.pdb
+K:\WorkShop\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.DataAccess.dll
+K:\WorkShop\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.DataAccess.pdb
+K:\WorkShop\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.Common.dll
+K:\WorkShop\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.Common.pdb
+K:\WorkShop\GIC.Reporting Automation\GIC.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+K:\WorkShop\GIC.Reporting Automation\GIC.DataAccess\obj\Debug\GIC.DataAccess.dll
+K:\WorkShop\GIC.Reporting Automation\GIC.DataAccess\obj\Debug\GIC.DataAccess.pdb
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.DataAccess.dll
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.DataAccess.pdb
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.Common.dll
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.Common.pdb
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.DataAccess\obj\Debug\GIC.DataAccess.dll
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.DataAccess\obj\Debug\GIC.DataAccess.pdb
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.DataAccess.dll
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.DataAccess.pdb
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.Common.dll
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.Common.pdb
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.DataAccess\obj\Debug\GIC.DataAccess.dll
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.DataAccess\obj\Debug\GIC.DataAccess.pdb
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.DataAccess.dll
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.DataAccess.pdb
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.Common.dll
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.DataAccess\bin\Debug\GIC.Common.pdb
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.DataAccess\obj\Debug\GIC.DataAccess.dll
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.DataAccess\obj\Debug\GIC.DataAccess.pdb
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.DataAccess\obj\Debug\GIC.DataAccess.csprojResolveAssemblyReference.cache

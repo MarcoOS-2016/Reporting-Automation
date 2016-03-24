@@ -1,0 +1,36 @@
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.Common\bin\Debug\GIC.Common.dll
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.Common\bin\Debug\GIC.Common.pdb
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.Common\bin\Debug\log4net.dll
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.Common\obj\Debug\GIC.Common.dll
+C:\Users\marco_zeng\Documents\Visual Studio 2010\Projects\GIC.Reporting Automation\GIC.Common\obj\Debug\GIC.Common.pdb
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Common\bin\Debug\GIC.Common.dll
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Common\bin\Debug\GIC.Common.pdb
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Common\bin\Debug\log4net.dll
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Common\obj\Debug\GIC.Common.dll
+C:\Driver E\WorkShop\GIC.Reporting Automation\GIC.Common\obj\Debug\GIC.Common.pdb
+K:\WorkShop\GIC.Reporting Automation\GIC.Common\bin\Debug\GIC.Common.dll
+K:\WorkShop\GIC.Reporting Automation\GIC.Common\bin\Debug\GIC.Common.pdb
+K:\WorkShop\GIC.Reporting Automation\GIC.Common\bin\Debug\log4net.dll
+K:\WorkShop\GIC.Reporting Automation\GIC.Common\obj\Debug\ResolveAssemblyReference.cache
+K:\WorkShop\GIC.Reporting Automation\GIC.Common\obj\Debug\GIC.Common.dll
+K:\WorkShop\GIC.Reporting Automation\GIC.Common\obj\Debug\GIC.Common.pdb
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Common\bin\Debug\GIC.Common.dll
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Common\bin\Debug\GIC.Common.pdb
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Common\bin\Debug\log4net.dll
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Common\obj\Debug\GIC.Common.dll
+D:\Working\WorkShop\GIC.Reporting Automation\GIC.Common\obj\Debug\GIC.Common.pdb
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Common\bin\Debug\GIC.Common.dll
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Common\bin\Debug\GIC.Common.pdb
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Common\bin\Debug\log4net.dll
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Common\obj\Debug\GIC.Common.dll
+D:\Working\WorkShop\Projects\GIC.Reporting Automation\GIC.Common\obj\Debug\GIC.Common.pdb
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Common\bin\Debug\GIC.Common.dll
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Common\bin\Debug\GIC.Common.pdb
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Common\bin\Debug\log4net.dll
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Common\obj\Debug\GIC.Common.dll
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Common\obj\Debug\GIC.Common.pdb
+D:\Working\WorkShop\Projects\2-GIC.Reporting Automation\GIC.Common\obj\Debug\GIC.Common.csproj.ResolveComReference.cache
